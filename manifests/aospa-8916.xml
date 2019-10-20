@@ -21,4 +21,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- Vendor -->
+  <remove-project name="AOSPA/android_vendor_pa" />
+  <project path="vendor/pa" name="android_vendor_pa" remote="aospa-8916" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
 </manifest>
