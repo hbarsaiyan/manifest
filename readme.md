@@ -1,4 +1,4 @@
-# Paranoid Android #
+# Paranoid Android for MSM8916 #
 
 ## Setting up your machine ##
 
@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b quartz
+$ repo init -u https://github.com/AOSPA-8916/manifest -b quartz
 ```
 
 ### Downloading the source tree ###

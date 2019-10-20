@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aospa-8916" 
+           fetch="https://github.com/AOSPA-8916"
+           revision="quartz" />
+
+  <!-- Manifest -->
+  <remove-project name="AOSPA/manifest" />
+  <project path="manifest" name="manifest" remote="aospa-8916" />
+
+</manifest>

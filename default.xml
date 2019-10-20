@@ -839,4 +839,7 @@
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml"/>
 
+  <!-- AOSPA-8916 additions -->
+  <include name="manifests/aospa-8916.xml"/>
+
 </manifest>
