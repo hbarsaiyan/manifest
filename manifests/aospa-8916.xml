@@ -21,6 +21,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- Frameworks -->
+  <remove-project name="AOSPA/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="aospa-8916" />
+
   <!-- Vendor -->
   <remove-project name="AOSPA/android_vendor_pa" />
   <project path="vendor/pa" name="android_vendor_pa" remote="aospa-8916" >
