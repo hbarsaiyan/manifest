@@ -31,6 +31,11 @@
   <!-- External -->
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-17.1" />
 
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
+  <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" revision="quartz-dev"/>
+
+
   <!-- System -->
   <remove-project name="AOSPA/android_system_sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="aospa-8916" />
