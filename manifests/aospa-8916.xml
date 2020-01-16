@@ -26,6 +26,10 @@
   <project path="device/pa/sepolicy" name="android_device_pa_sepolicy" remote="aospa-8916" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="aospa-8916" revision="quartz-legacy" />
 
+  <!-- Hardware -->
+  <remove-project name="AOSPA/android_hardware_pa_interfaces" />
+  <project path="hardware/pa/interfaces" name="android_hardware_pa_interfaces" remote="aospa-8916" />
+
   <!-- Frameworks -->
   <remove-project name="AOSPA/android_frameworks_base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aospa-8916" />
